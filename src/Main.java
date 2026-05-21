@@ -38,7 +38,7 @@ public class Main {
 
                     String task = scanner.nextLine();
 
-                    tasks.add(task);
+                    tasks.add("[TODO] " + task);
 
                     System.out.println("Task added successfully.");
                     break;
@@ -55,7 +55,7 @@ public class Main {
                     } else {
 
                         for (int i = 0; i < tasks.size(); i++) {
-
+                        // Display each task with its status
                             System.out.println(
                                     (i + 1) + ". " + tasks.get(i)
                             );
