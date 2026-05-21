@@ -18,7 +18,7 @@ public class Main {
             System.out.println("\n==========================");
             System.out.println("     TASK MANAGER");
             System.out.println("==========================");
-
+		// Console user interface
             System.out.println("1. Add task");
             System.out.println("2. Show tasks");
             System.out.println("3. Delete task");
@@ -41,6 +41,7 @@ public class Main {
                     tasks.add("[TODO] " + task);
 
                     System.out.println("Task added successfully.");
+		    System.out.println("Keep going, productivity matters.");
                     break;
 
                 case 2:
@@ -87,6 +88,7 @@ public class Main {
                 case 4:
 
                     System.out.println("Exiting application...");
+                    System.out.println("See you next time.");
                     break;
 
                 default:
