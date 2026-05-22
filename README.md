@@ -22,3 +22,9 @@ This project is mainly used to practice:
 - merges
 - commits
 - project organization
+
+## Recent Improvements
+
+- Added task status system
+- Improved console interface
+- Better project organization
